@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="hackOne" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qWg-Wh-inV">
+                                <rect key="frame" x="82" y="70" width="157" height="160"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="160" id="rK9-Q9-uAx"/>
+                                    <constraint firstAttribute="width" constant="157" id="y7t-Lb-zla"/>
+                                </constraints>
+                                <state key="normal" image="reverse-prayer-pose-yoga-for-pregnancy-asana-second-trimester1.jpg"/>
+                                <connections>
+                                    <action selector="behindBack:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UHi-Ur-JGK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ee-tm-N00">
+                                <rect key="frame" x="55" y="238" width="211" height="172"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="172" id="3aR-ja-Qsr"/>
+                                    <constraint firstAttribute="width" constant="211" id="aAe-rL-lqg"/>
+                                </constraints>
+                                <state key="normal" image="twisted chair pose.jpg"/>
+                                <connections>
+                                    <action selector="chairPose:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MPQ-Es-Y63"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose Yoga Pose" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4sZ-WD-xLH">
+                                <rect key="frame" x="31" y="20" width="259" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="259" id="1HO-Ej-XIX"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="33" id="NLT-Sc-Str"/>
+                                    <constraint firstAttribute="width" constant="259" id="a8j-qL-xBt"/>
+                                    <constraint firstAttribute="height" constant="42" id="bsS-di-Iv4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yQi-qq-dYc">
+                                <rect key="frame" x="111" y="515" width="99" height="33"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="SXM-RP-ny5"/>
+                                    <constraint firstAttribute="width" constant="99" id="jkD-GH-WME"/>
+                                </constraints>
+                                <color key="tintColor" red="0.47238630870401899" green="0.30911541687322641" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Start">
+                                    <color key="titleColor" red="0.98733439209999996" green="0.98904105269999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="startButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gxF-Xd-8v1"/>
+                                    <action selector="startButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gcv-Yx-tmo"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6vU-oV-rhz">
+                                <rect key="frame" x="304" y="497" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rB5-HJ-YIz">
+                                <rect key="frame" x="16" y="422" width="238" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="238" id="7sy-8Z-wrj"/>
+                                    <constraint firstAttribute="height" constant="85" id="ufq-Q5-eVK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yQi-qq-dYc" secondAttribute="bottom" constant="20" id="7jf-Gi-czu"/>
+                            <constraint firstItem="1Ee-tm-N00" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7qI-J5-nnd"/>
+                            <constraint firstItem="4sZ-WD-xLH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="8dC-k0-bt9"/>
+                            <constraint firstItem="qWg-Wh-inV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lpp-iJ-cUi"/>
+                            <constraint firstItem="yQi-qq-dYc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="OqJ-7g-esn"/>
+                            <constraint firstItem="rB5-HJ-YIz" firstAttribute="top" secondItem="1Ee-tm-N00" secondAttribute="bottom" constant="12" id="S4k-aL-ew3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6vU-oV-rhz" secondAttribute="trailing" constant="16" id="Sae-Ro-a8e"/>
+                            <constraint firstItem="1Ee-tm-N00" firstAttribute="top" secondItem="qWg-Wh-inV" secondAttribute="bottom" constant="8" id="YJR-2D-5Mh"/>
+                            <constraint firstItem="4sZ-WD-xLH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Z68-eA-D04"/>
+                            <constraint firstItem="rB5-HJ-YIz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="doC-j8-zph"/>
+                            <constraint firstItem="qWg-Wh-inV" firstAttribute="top" secondItem="4sZ-WD-xLH" secondAttribute="bottom" constant="8" id="e6y-h6-d8T"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6vU-oV-rhz" secondAttribute="bottom" constant="71" id="uMC-Te-fmC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="motionLabel" destination="6vU-oV-rhz" id="4Ky-U1-SN5"/>
+                        <outlet property="poseLabel" destination="rB5-HJ-YIz" id="G7m-Wj-E6I"/>
+                        <outlet property="startButton" destination="yQi-qq-dYc" id="KoV-SK-Sng"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116.25" y="115.14084507042254"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="reverse-prayer-pose-yoga-for-pregnancy-asana-second-trimester1.jpg" width="800" height="872"/>
+        <image name="twisted chair pose.jpg" width="1123" height="749"/>
+    </resources>
+</document>
